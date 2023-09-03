@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>浮动布局练习</title>
+  <link rel="stylesheet" href="./浮动布局练习.css">
+</head>
+
+<body>
+  <!-- 整体容器 -->
+  <div class="full">
+
+    <!-- 头部容器 -->
+    <div class="head clearfix">
+      <div class="logo leftfix">logo</div>
+      <div class="banner1 leftfix">banner1</div>
+      <div class="banner2 leftfix">banner2</div>
+    </div>
+
+    <!-- 菜单容器 -->
+    <div class="menu">menu</div>
+
+    <!-- 主体容器 -->
+    <div class="main clearfix">
+      <!-- 左侧浮动容器 -->
+      <div class="left leftfix">
+        <div class="top clearfix">
+          <div class="column1 leftfix">column1</div>
+          <div class="column2 leftfix">column2</div>
+        </div>
+        <div class="bottom clearfix">
+          <div class="column3 leftfix">column3</div>
+          <div class="column4 leftfix">column4</div>
+          <div class="column5 leftfix">column5</div>
+          <div class="column6 leftfix">column6</div>
+        </div>
+      </div>
+      <!-- 右侧侧浮动容器 -->
+      <div class="right rightfix">
+        <div class="column7">column7</div>
+        <div class="column8 ">column8</div>
+        <div class="column9 ">column9</div>
+      </div>
+    </div>
+
+    <!-- 底部容器 -->
+    <div class="foot leftfix">
+      <div class="footer">footer</div>
+    </div>
+  </div>
+
+</body>
+
+</html>

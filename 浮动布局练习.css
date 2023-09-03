@@ -1,0 +1,111 @@
+/*清除默认样式*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*设置整体容器样式*/
+.full {
+  width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*设置左浮动*/
+.leftfix {
+  float: left;
+}
+
+/*设置右浮动*/
+.rightfix {
+  float: right;
+}
+
+/*清楚浮动影响*/
+.clearfix::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/*设置头部容器-logo，banner1,banner2样式*/
+.logo,
+.banner1,
+.banner2 {
+  height: 80px;
+  background-color: #ccc;
+  line-height: 80px;
+}
+
+/*设置头部容器-logo样式*/
+.logo {
+  width: 200px;
+  margin-right: 10px;
+}
+
+/*设置头部容器-banner1样式*/
+.banner1 {
+  width: 540px;
+  margin-right: 10px;
+}
+
+/*设置头部容器-banner2样式*/
+.banner2 {
+  width: 200px;
+}
+
+/*设置菜单容器样式*/
+.menu {
+  width: 960px;
+  height: 30px;
+  background-color: #ccc;
+  margin-top: 10px;
+  line-height: 30px;
+}
+
+/* 设置左侧浮动容器-column1,column2样式 */
+.column1,
+.column2 {
+  width: 370px;
+  height: 200px;
+  border: 1px solid black;
+  margin-top: 10px;
+  line-height: 200px;
+  box-sizing: border-box;
+  margin-right: 10px;
+}
+
+/* 设置左侧浮动容器-column3,column4,column5,column6样式 */
+.column3,
+.column4,
+.column5,
+.column6 {
+  width: 180px;
+  height: 200px;
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-right: 10px;
+  line-height: 200px;
+  box-sizing: border-box;
+}
+
+/* 设置右侧浮动容器-column7，column8，column9样式*/
+.column7,
+.column8,
+.column9 {
+  width: 200px;
+  height: 130px;
+  border: 1px solid black;
+  margin-top: 10px;
+  line-height: 130px;
+  box-sizing: border-box;
+}
+
+/*设置底部容器样式*/
+.footer {
+  width: 960px;
+  height: 60px;
+  background-color: #ccc;
+  margin-top: 10px;
+  line-height: 60px;
+}
