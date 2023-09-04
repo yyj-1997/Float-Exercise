@@ -22,7 +22,7 @@
 }
 
 /*清楚浮动影响*/
-.clearfix::after{
+.clearfix::after {
   content: '';
   display: block;
   clear: both;
